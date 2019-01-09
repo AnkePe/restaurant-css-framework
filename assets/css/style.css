@@ -10,5 +10,7 @@
 @media (min-width: 768px) {
   .homepage {
     height: 100vh; } }
+label {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
