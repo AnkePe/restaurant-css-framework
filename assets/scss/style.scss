@@ -1,3 +1,6 @@
+//fonts
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Ribeye Marrow', cursive;
 
 .homepage {
     background: url(../img/tom-crew-01.jpg) center/cover;
@@ -5,4 +8,24 @@
 
 .card-deck {
     justify-content: space-around;
+}
+
+.sociale-media {
+    font-size: 1.9rem;
+}
+
+// .menulijsten {
+    // min-height: 30rem;
+//}
+
+// .py-6 {
+//     ul {
+//         margin: 2em 0 4em 0;
+//     }
+// }
+
+@media (min-width:768px) {
+    .homepage {
+        height: 100vh;
+    }
 }
