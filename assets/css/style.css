@@ -1,3 +1,6 @@
+.fotopagina {
+  background-color: #312d2d; }
+
 .homepage {
   background: url(../img/tom-crew-01.jpg) center/cover; }
 
@@ -5,20 +8,24 @@
   background: url(../img/tom-crew-01.jpg) center/cover;
   min-height: 100vh; }
 
-.foto {
-  
-}
-
 .card-deck {
   justify-content: space-around; }
 
 .sociale-media {
   font-size: 1.9rem; }
 
-/* @media (min-width: 768px) {
-  .homepage {
-    height: 100vh; } } */
+.jumbotron {
+  background-color: rgba(233, 236, 239, 0.5); }
+
 label {
   color: white; }
+
+.page-item,
+.page-link {
+  background-color: transparent;
+  color: white; }
+
+.page-item.active .page-link {
+  background-color: grey; }
 
 /*# sourceMappingURL=style.css.map */

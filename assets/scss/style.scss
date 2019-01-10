@@ -2,6 +2,10 @@
 //font-family: 'Open Sans', sans-serif;
 //font-family: 'Ribeye Marrow', cursive;
 
+.fotopagina {
+    background-color: rgb(49, 45, 45)
+   }
+  
 .homepage {
     background: url(../img/tom-crew-01.jpg) center/cover;
 }
@@ -19,6 +23,10 @@
     font-size: 1.9rem;
 }
 
+.jumbotron {
+    background-color:rgba(233, 236, 239, 0.5) ;
+  }
+  
 // .menulijsten {
     // min-height: 30rem;
 //}
@@ -29,11 +37,20 @@
 //     }
 // }
 
-@media (min-width:768px) {
-    .homepage {
-        height: 100vh;
-    }
-}
+// @media (min-width:768px) {
+//     .homepage {
+//         height: 100vh;
+//     }
+
 label {
     color: white;
+}
+
+.page-item,
+.page-link {
+  background-color: transparent; 
+  color: white;
+}
+.page-item.active .page-link{
+  background-color: grey ;
 }
